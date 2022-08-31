@@ -67,4 +67,4 @@ Generated Reply:
 SOS bye , troy ! EOS
 --------------------------------------------------
 ```
-Please note that the PAD tokens following the EOS token are omitted. Please also note that the response is generated at randomly using `top-k` sampling.
+Please note that the PAD tokens following the EOS token are omitted. Please also note that the response is generated randomly using `top-k` sampling.
