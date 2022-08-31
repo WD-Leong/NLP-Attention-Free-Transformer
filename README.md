@@ -10,7 +10,9 @@ followed by running
 ```
 pythoon train_movie_dialog_sw_aft.py
 ```
-to train the Attention Free Transformer (AFT) model. Once the model is trained, run the script
+to train the Attention Free Transformer (AFT) model. The model's causality is enforced using [prefix sum](https://en.wikipedia.org/wiki/Prefix_sum) as the authors of [Performer](https://ai.googleblog.com/2020/10/rethinking-attention-with-performers.html) suggested. In the code, this is implemented with `torch.cumsum`.
+
+Once the model is trained, run the script
 ```
 python infer_movie_dialog_sw_aft.py
 ```
