@@ -31,47 +31,47 @@ Below are some examples of the model inference in the wild:
 Input Phrase:
 how are you?
 Generated Reply:
-SOS fine . how are you ? EOS
+SOS fine . EOS
 --------------------------------------------------
 Input Phrase:
 what time is it?
 Generated Reply:
-SOS almost two a . m . EOS
+SOS eight o ' clock . EOS
 --------------------------------------------------
 Input Phrase:
-how much is it?
+how much does it cost?
 Generated Reply:
-SOS a dollar seventy - five . EOS
+SOS thirty five dollars . EOS
 --------------------------------------------------
 Input Phrase:
 where are we going?
 Generated Reply:
-SOS someplace safe . EOS
+SOS out of here -- ? EOS
 --------------------------------------------------
 Input Phrase:
 when are we leaving?
 Generated Reply:
-SOS tomorrow . EOS
+SOS tomorrow ? EOS
 --------------------------------------------------
 Input Phrase:
 how long is it?
 Generated Reply:
-SOS six weeks . EOS
+SOS three hours . EOS
 --------------------------------------------------
 Input Phrase:
 what are you doing?
 Generated Reply:
-SOS i ' m trying to help ... EOS
+SOS i ' m going to take a shower . EOS
 --------------------------------------------------
 Input Phrase:
 what did he say?
 Generated Reply:
-SOS i think he said he ' s right here . EOS
+SOS nothing . EOS
 --------------------------------------------------
 Input Phrase:
 bye.
 Generated Reply:
-SOS bye , troy ! EOS
+SOS bye .! EOS
 --------------------------------------------------
 ```
 Please note that the PAD tokens following the EOS token are omitted. Please also note that the response is generated randomly using `top-k` sampling.
