@@ -21,9 +21,13 @@ to perform inference.
 ### GPT Model
 For convenience, the [GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) model is also included and running the command
 ```
-python train_movie_dialog_sw_aft.py
+python train_movie_dialog_sw_gpt.py
 ```
-trains the model.
+trains the model. Inference can be done via
+```
+python infer_movie_dialog_sw_gpt.py
+```
+after the model has been trained.
 
 ## Model inference examples 
 Below are some examples of the model inference in the wild:
